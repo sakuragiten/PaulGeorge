@@ -1,7 +1,7 @@
 PODS:
   - PaulGeorge (0.1.0):
-    - RxCocoa (~> 4.0)
-    - RxSwift (~> 4.0)
+    - RxCocoa
+    - RxSwift
     - SnapKit
   - RxCocoa (4.5.0):
     - RxSwift (>= 4.4.2, ~> 4.4)
@@ -22,7 +22,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PaulGeorge: d86fd269a8219ea75b974908a57b893634c86a69
+  PaulGeorge: ff0d9ca41f6d7f047879c279451359a872671847
   RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
   RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a

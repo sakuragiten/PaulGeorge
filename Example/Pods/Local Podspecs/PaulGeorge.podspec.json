@@ -21,10 +21,10 @@
   "source_files": "PaulGeorge/Classes/**/*",
   "dependencies": {
     "RxSwift": [
-      "~> 4.0"
+
     ],
     "RxCocoa": [
-      "~> 4.0"
+
     ],
     "SnapKit": [
 
