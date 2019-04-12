@@ -130,7 +130,7 @@ private class SliderActionCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    class func slider(title: String, actionNames: [String]) -> SliderSheetController {
+    public class func slider(title: String, actionNames: [String]) -> SliderSheetController {
         let slider = SliderSheetController()
         slider.sliderTitle = title
         slider.actions = actionNames.map { (actionName) -> SliderAction in
