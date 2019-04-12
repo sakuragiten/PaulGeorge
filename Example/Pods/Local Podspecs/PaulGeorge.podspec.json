@@ -19,6 +19,7 @@
     "ios": "8.0"
   },
   "source_files": "PaulGeorge/Classes/**/*",
+  "swift_version": "4.2",
   "dependencies": {
     "RxSwift": [
 

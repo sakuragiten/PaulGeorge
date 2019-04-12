@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/sakuragiten/PaulGeorge.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.3'
 
   s.source_files = 'PaulGeorge/Classes/**/*'
   
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'PaulGeorge' => ['PaulGeorge/Assets/*.png']
   # }
 
-  
+  s.swift_version = '4.2'
   s.dependency 'RxSwift'   #,    '~> 4.0'
   s.dependency 'RxCocoa'   #,    '~> 4.0'
   s.dependency 'SnapKit'
