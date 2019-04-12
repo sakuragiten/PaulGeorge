@@ -1,0 +1,33 @@
+{
+  "name": "PaulGeorge",
+  "version": "0.1.0",
+  "summary": "A short description of PaulGeorge.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sakuragiten/PaulGeorge",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lx_fireloli": "387970107@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/sakuragiten/PaulGeorge.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PaulGeorge/Classes/**/*",
+  "dependencies": {
+    "RxSwift": [
+      "~> 4.0"
+    ],
+    "RxCocoa": [
+      "~> 4.0"
+    ],
+    "SnapKit": [
+
+    ]
+  }
+}
