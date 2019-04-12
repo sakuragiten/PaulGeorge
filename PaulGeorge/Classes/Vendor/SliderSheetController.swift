@@ -94,8 +94,8 @@ private class SliderActionCell: UITableViewCell {
 @objc public class SliderSheetController: UIViewController {
     
     
-    var sliderProgress : ((Int, CGFloat) -> Void)?
-    var sliderTitle: String? {
+    public var sliderProgress : ((Int, CGFloat) -> Void)?
+    public var sliderTitle: String? {
         didSet {
             let titleLabel = UILabel(frame: CGRect(x: 0, y: 0, width: pg_screenW, height: 40))
             titleLabel.font = UIFont.boldSystemFont(ofSize: 14)
@@ -210,7 +210,7 @@ extension SliderSheetController: UITableViewDelegate, UITableViewDataSource {
         return cell
     }
     
-    private func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+    public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 60
     }
 }
