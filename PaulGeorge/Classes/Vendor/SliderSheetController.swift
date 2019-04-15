@@ -94,8 +94,8 @@ private class SliderActionCell: UITableViewCell {
 @objc public class SliderSheetController: UIViewController {
     
     
-    public var sliderProgress : ((Int, CGFloat) -> Void)?
-    public var sliderTitle: String? {
+    @objc public var sliderProgress : ((Int, CGFloat) -> Void)?
+    @objc public var sliderTitle: String? {
         didSet {
             let titleLabel = UILabel(frame: CGRect(x: 0, y: 0, width: pg_screenW, height: 40))
             titleLabel.font = UIFont.boldSystemFont(ofSize: 14)
@@ -120,7 +120,7 @@ private class SliderActionCell: UITableViewCell {
         setupUI()
     }
     
-    init() {
+    @objc public init() {
         super.init(nibName: nil, bundle: nil)
         view.backgroundColor = .clear //UIColor(r: 0, g: 0, b: 0, a: 0.3)
         modalPresentationStyle = .overCurrentContext
@@ -130,7 +130,7 @@ private class SliderActionCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    public class func slider(title: String, actionNames: [String]) -> SliderSheetController {
+    @objc public class func slider(title: String, actionNames: [String]) -> SliderSheetController {
         let slider = SliderSheetController()
         slider.sliderTitle = title
         slider.actions = actionNames.map { (actionName) -> SliderAction in
