@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'PaulGeorge' => ['PaulGeorge/Assets/*.png']
   # }
 
-  s.swift_version = '4.2'
+  s.swift_version = '5.0'
   s.dependency 'RxSwift'   #,    '~> 4.5.0'
   s.dependency 'RxCocoa'   #,    '~> 4.5.0'
   s.dependency 'SnapKit'
